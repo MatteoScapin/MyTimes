@@ -1,3 +1,5 @@
+/*Header styling*/
+
 header {
   display: flex;
   position: fixed;
@@ -9,6 +11,7 @@ header {
   font-weight: bold;
   border: 1px solid #000;
   margin: 0;
+  background-color: #fff;
 }
 
 header nav {
@@ -36,4 +39,33 @@ header a {
 
 #menu span {
   padding: 10px;
+}
+
+/*Main content styling*/
+
+div, article, caption {
+  border: 1px solid #000;
+}
+
+#content {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
