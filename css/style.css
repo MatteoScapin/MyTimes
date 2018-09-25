@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-family: Georgia;
+}
+
 /*Header styling*/
 
 header {
@@ -65,6 +69,7 @@ header a {
 .column {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: flex-start;
   margin-right: 30px;
 }
 
@@ -84,14 +89,15 @@ header a {
 
 .thumb {
   display: flex;
+  align-items: center;
   height: 300px;
 }
 
 .thumb h1 {
-  font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: #fff;
+  margin-left: 15px;
 }
 
 .main > h1 {
